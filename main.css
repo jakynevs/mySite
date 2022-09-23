@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+* {
+    box-sizing: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+}
+:root {
+    --main-white: #F5F5F5;
+    --light-grey: #D3D3D3;
+    --dark-grey: #707070; 
+} 
+html {
+    font-family: "Work Sans", 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+}
+html,body {
+    background-image: url(Images/BlackSand.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--main-white);
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #707070;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+li, a, button {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-white);
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 30px;
+}
+button {
+    padding: 4px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #0088a9;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+p {
+    font-size: 17px;
+}
+.wrapper-content {
+    width: 80%;
+    margin: 0 auto;
+}
+.landing{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    height: 600px;
+    border-color: #D3D3D3;
+}
+.left {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    flex: 1;
+    margin-left: 0;
+    margin-right: 30px;
+}
+#first {
+    margin-top: 100px;
+}
+.right {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    flex: 1;
+    margin-right: 0;
+    margin-left: 30px;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+#bike {
+      height: 600px;
+  }
+  
+#pong {
+    height: 260px;
+}
+
+#Handoff {
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover;
+    object-position: 70% 0;
+}
+
+footer {
+    position: fixed;
+    left: 12px;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    margin-left: 10px;
+}
+#date_day {
+    font-size: 36px;
+}
+#date_month {
+    line-height: 58px;
+    opacity: 0.5;
+}
+#Home {
+    display: block;
+    height: 150px;
+    margin-top: -200px;
+    visibility: hidden;
+}
+
+.anchor {
+    display: block;
+    height: 150px;
+    margin-top: -100px;
+    visibility: hidden;
+}

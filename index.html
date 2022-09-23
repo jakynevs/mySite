@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACK NEVILLE</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+    <header>
+        <a href="#Home" class="logo">JACK NEVILLE</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="Jack Neville CV.pdf" target="_blank">CV</a></li>
+                <li><a href="#Rugby">Rugby</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="mailto:jack@jackneville.com"><button>Contact</button></a>
+    </header>
+    <div class="wrapper-content">
+        <div class="landing" id="first">
+            <span class="anchor" id="Home"></span>
+            <div class="left top animate__animated animate__fadeInDown">
+                <img src="Images/Portrait.jpg" id="bike" alt="Me with my bike">
+            </div>
+            <div class="right animate__animated animate__fadeInUp">
+                <h1>Jack Neville</h1>
+                <h2>Computer Programmer</h2>
+                <br>
+                <p>I have been playing professional rugby for the last 6 years and over the last three years I have put my time outside of rugby into computer programming. Through  self-study and more recently through part time employment as a back-end programmer, I have become proficient in Python, REST APIs, Excel VBAs and numerous technology systems. I am looking for work as a software engineer or data analyst.</p>
+            </div>
+        </div>
+        <div class="ProjectsSection">
+            <div class="landing">
+                <span class="anchor" id="Projects"></span>
+                <div class="left wow animate__animated animate__fadeInDown">
+                    <h1>Projects</h1>
+                    <br>
+                    <p>I have built a number of basic arcade games when trying to grasp the funadamentals of Python. As well as the games I have designed and built this website and I am currently writing a web scraping programme to assemble suitable jobs for me from multiple websites.
+                    </p>
+                    <br>
+                    <p>Alongside my own projects I am employed on an ad hoc basis to analyse and present big data for a client using VBAs on Excel.
+                    </p>
+                </div>
+                <div class="right wow animate__animated animate__fadeInRight">
+                    <img src="Images/pong.png" id="pong" alt="Pong game">
+                </div>
+            </div>
+        <div class="Rugby section">
+            <div class="landing">
+                <div class="left wow animate__animated animate__fadeInLeft">
+                    <img src="Images/Handoff.jpeg" id="Handoff" alt="Handoff against Japan">
+                </div>
+                <div class="right wow animate__animated animate__fadeInDown">
+                    <h1>Rugby</h1>
+                    <h2>Hong Kong International Player</h2>
+                    <br>
+                    <p>Over the last 6 years I have played rugby in Hong Kong, Madrid and now Nottingham. Most of my career has been spent in HK where I have caps for the HK 15s and 7s teams. I still have ambitions to get more caps for the HK National 15s team, especially as we are trying to clinch the final place in the 2023 World Cup in France. </p>
+                </div>
+                <span class="anchor" id="Rugby"></span>
+            </div>
+        </div>
+    </div>
+    <footer> 
+        <div class= "date" id="date_day">
+            <script type="text/javascript">
+                var d = new Date().getDate();
+                date = ('0' + d).slice(-2);
+                document.getElementById("date_day").innerHTML = date;
+            </script>
+        </div>
+        <div class= "month" id="date_month">
+            <script type="text/javascript">
+                var m = new Date().getMonth() + 1;
+                month = ('0' + m).slice(-2);
+                document.getElementById("date_month").innerHTML = "/" + month;
+            </script>
+        </div>
+    </footer>
+    <script src="wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+</html>
